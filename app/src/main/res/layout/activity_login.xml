@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bitmap"
+    tools:context=".view.activity.LoginActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/ed_login"
+        android:background="@drawable/aa"
+        android:layout_marginTop="320dp"
+        android:hint="     请输入邮箱账号:"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:ems="14"
+        android:text="2810655964@qq.com"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/aa"
+        android:id="@+id/lin1"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+
+        android:layout_gravity="center"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/ed_mima"
+            android:hint="     请输入密码:"
+            android:textColorHint="@color/colorA"
+            android:textColor="#fff"
+            android:text="123"
+            android:password="true"
+            android:ems="10"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/but_wang"
+            android:text="忘记密码"
+            android:background="@color/colorA"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_zhu"
+        android:text="暂无账号  立即注册"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorA"
+        android:layout_marginLeft="200dp"
+
+        />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/but_deng"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:textColor="@color/colorA"
+        android:text="登录"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_disan"
+        android:text="----------或----------"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorA"
+        />
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ss"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_wei"
+            android:src="@mipmap/log_icon_weixin_default_hdpi"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/dd"
+            />
+    </RelativeLayout>
+</LinearLayout>

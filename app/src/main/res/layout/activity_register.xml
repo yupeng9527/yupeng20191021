@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ying"
+    >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/ed_name"
+        android:background="@drawable/aa"
+        android:layout_marginTop="200dp"
+        android:hint="     请输入昵称:"
+        android:textColorHint="@color/colorA"
+        android:ems="14"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/ed_youxiang"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/aa"
+        android:hint="     请输入邮箱账号:"
+        android:textColorHint="@color/colorA"
+        android:ems="14"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/ed_mm"
+        android:background="@drawable/aa"
+        android:layout_marginTop="20dp"
+        android:hint="     请设置密码:"
+        android:textColorHint="@color/colorA"
+        android:ems="14"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/aa"
+        android:id="@+id/lin1"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+
+        android:layout_gravity="center"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/ed_zhu"
+            android:hint="     请输入验证码:"
+            android:textColorHint="@color/colorA"
+            android:password="true"
+            android:ems="10"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/but_verificationcode"
+            android:text="获取验证码"
+            android:background="@color/colorA"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_deng"
+        android:text="已有账号  立即登录"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorA"
+        android:layout_marginLeft="200dp"
+
+        />
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/but_zhuce"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:textColor="@color/colorA"
+        android:text="注册"
+
+        />
+
+
+
+
+</LinearLayout>
